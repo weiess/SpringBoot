@@ -1,0 +1,18 @@
+2019-08-31 21:38:10.042  INFO 4374 --- [restartedMain] com.yzl.SpringbootDemowebApplication     : Starting SpringbootDemowebApplication on yiyiyaya.local with PID 4374 (/Users/yang/Desktop/yang/springboot-demoweb/target/classes started by yang in /Users/yang/Desktop/yang/springboot-demoweb)
+2019-08-31 21:38:10.046  INFO 4374 --- [restartedMain] com.yzl.SpringbootDemowebApplication     : No active profile set, falling back to default profiles: default
+2019-08-31 21:38:10.095  INFO 4374 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-08-31 21:38:10.095  INFO 4374 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-08-31 21:38:11.431  INFO 4374 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-31 21:38:11.457  INFO 4374 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-31 21:38:11.458  INFO 4374 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-08-31 21:38:11.470  INFO 4374 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/yang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-08-31 21:38:11.550  INFO 4374 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/rest]   : Initializing Spring embedded WebApplicationContext
+2019-08-31 21:38:11.550  INFO 4374 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1454 ms
+2019-08-31 21:38:11.740  INFO 4374 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-08-31 21:38:12.087  INFO 4374 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-08-31 21:38:12.431  INFO 4374 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-31 21:38:12.686  INFO 4374 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-08-31 21:38:12.751  INFO 4374 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/rest'
+2019-08-31 21:38:12.755  INFO 4374 --- [restartedMain] com.yzl.SpringbootDemowebApplication     : Started SpringbootDemowebApplication in 3.315 seconds (JVM running for 3.728)
+2019-08-31 21:39:12.256  INFO 4374 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-31 21:39:12.260  INFO 4374 --- [Thread-10] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
